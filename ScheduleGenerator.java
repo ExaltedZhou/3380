@@ -84,7 +84,7 @@ public class ScheduleGenerator {
             }
         }
 
-        // Get meal times
+        // Get meal times --- only takes in one meal time and applies it to Each of the days
         System.out.println("\nEnter meal times:");
         System.out.print("Start time (in format HH:MM): ");
         String mealStartTime = scanner.nextLine();
@@ -93,7 +93,8 @@ public class ScheduleGenerator {
         Activity mealActivity = new Activity("Meal", mealStartTime, mealEndTime, "Monday-Friday");
         activities.add(mealActivity);
 
-        // Get bed times
+        // Get bed times --- currently only takes in one time range. 
+        //Produces an error when given time range where start time is greater than end time.
         System.out.println("\nEnter bed times:");
         System.out.print("Start time (in format HH:MM): ");
         String bedStartTime = scanner.nextLine();
@@ -110,14 +111,14 @@ public class ScheduleGenerator {
                     isOverlap = true;
                     System.out.println("Error: Overlapping");
                 }}}}
-
+    //currently not working
 	private static void writeActivitiesToFile(ArrayList<Activity> activities, String filename) {
-		// TODO Auto-generated method stub
+		
 		
 	}
-
+	//functions
 	private static String getDay(int i) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}}
     
