@@ -1,0 +1,25 @@
+Mon:
+rest                     3:00am    - 4:00am   erst
+csc4103                  4:40am    - 6:00am   class
+csc4783                  7:40am    - 9:00am   class
+meal                     12:40pm   - 1:00pm   meal
+bed                      11:00pm   - 1:00am   next day
+
+Tue:
+csc4523                  4:00am    - 4:50am   class
+meal                     12:40pm   - 1:00pm   meal
+bed                      11:00pm   - 1:00am   next day
+
+Wed:
+meal                     12:40pm   - 1:00pm   meal
+bed                      11:00pm   - 1:00am   next day
+
+Thu:
+meal                     12:40pm   - 1:00pm   meal
+bed                      11:00pm   - 1:00am   next day
+
+Fri:
+meal                     12:40pm   - 1:00pm   meal
+bed                      11:00pm   - 1:00am   next day
+
+

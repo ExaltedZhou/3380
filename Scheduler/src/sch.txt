@@ -1,0 +1,6 @@
+Mon, csc4103, 4:40am, 6:00am, class
+Mon, csc4783, 7:40am, 9:00am, class
+Tue, csc4523, 4:00am, 4:50am, class
+m-f, meal, 12:40pm, 1:00pm, meal
+m-f, bed, 11:00pm, 1:00am, next day
+Mon, rest, 3:00am, 4:00am, erst
