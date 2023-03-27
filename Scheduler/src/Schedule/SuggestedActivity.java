@@ -1,5 +1,6 @@
 package Schedule;
 
+
 public class SuggestedActivity {
 	private String name;
 	private int duration;

@@ -49,13 +49,22 @@ public class ScheduleGenerator {
 				sch.insertSchedule(i, b.get(i));
 			}
 		}
+		
+		
+		
 		System.out.println(sch.toString());
 		PrintStream out = new PrintStream(new File("weeklySchedule.txt"));
 		System.setOut(out);
 		System.out.println(sch.toString());
-
-		
-		
-	}
-
+		for (Block block : b) {
+            if (!block.getBlock().isEmpty()) {
+                System.out.println("Free time with suggestions for " + block.getName() + ":");
+                block.printFreeTimeWithSuggestions();
+                System.out.println();
+            }
+        }
+    }
 }
+
+
+

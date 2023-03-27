@@ -1,5 +1,6 @@
 package Schedule;
 
+
 import java.time.*;
 
 public class FreeTime {

@@ -1,0 +1,121 @@
+Mon:
+wake up                  12:00AM    - 7:00AM   
+csc 3380                 10:30AM   - 11:30AM  class
+bed                      10:00PM   - 7:00AM   nextday
+Free Time: 07:00-10:30
+Free Time: 11:30-22:00
+
+Tue:
+wake up                  12:00AM    - 7:00AM   
+csc 3380                 10:30AM   - 11:30AM  class
+bed                      10:00PM   - 7:00AM   nextday
+Free Time: 07:00-10:30
+Free Time: 11:30-22:00
+
+Wed:
+wake up                  12:00AM    - 7:00AM   
+csc 3380                 10:30AM   - 11:30AM  class
+bed                      10:00PM   - 7:00AM   nextday
+Free Time: 07:00-10:30
+Free Time: 11:30-22:00
+
+Thu:
+wake up                  12:00AM    - 7:00AM   
+csc 3380                 10:30AM   - 11:30AM  class
+bed                      10:00PM   - 7:00AM   nextday
+Free Time: 07:00-10:30
+Free Time: 11:30-22:00
+
+Fri:
+wake up                  12:00AM    - 7:00AM   
+csc 3380                 10:30AM   - 11:30AM  class
+bed                      10:00PM   - 7:00AM   nextday
+Free Time: 07:00-10:30
+Free Time: 11:30-22:00
+
+
+Free time with suggestions for Mon:
+Free Time: 07:00-10:30
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 11:30-22:00
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 07:00-23:59:59.999999999
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+
+Free time with suggestions for Tue:
+Free Time: 07:00-10:30
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 11:30-22:00
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 07:00-23:59:59.999999999
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+
+Free time with suggestions for Wed:
+Free Time: 07:00-10:30
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 11:30-22:00
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 07:00-23:59:59.999999999
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+
+Free time with suggestions for Thu:
+Free Time: 07:00-10:30
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 11:30-22:00
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 07:00-23:59:59.999999999
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+
+Free time with suggestions for Fri:
+Free Time: 07:00-10:30
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 11:30-22:00
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+Free Time: 07:00-23:59:59.999999999
+SuggestedActivities:
+ - Exercise (60 minute)
+ - Friend Time (120 minute)
+ - Study Time (120 minute)
+
