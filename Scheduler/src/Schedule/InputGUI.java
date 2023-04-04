@@ -1,6 +1,6 @@
 
 
-package schedule;
+package Schedule;
 
 import javax.swing.*;
 import java.awt.*;
