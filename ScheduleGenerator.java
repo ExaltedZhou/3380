@@ -66,7 +66,7 @@ public class ScheduleGenerator {
 // 		                {
 		                   
 // 		                }
-//                         else {method(inFIle.hasNext()}
+//                         else {method(inFIle.hasNext())}
 		               
 // 		            }
 
