@@ -52,6 +52,25 @@ class VerificationEngine {
 
 public class ScheduleGenerator {
     public static void main(String[] args) throws IOException {
+//         try( //this reads the txt file but need to change the inputGUI.java to add the amount of how many classes user put in txt file for this for-loop.
+// 		        Scanner inFile = new Scanner(new FileReader("inputFile.txt")))
+// 		        {
+// 		            int totalOps = inFile.nextInt();
+// 		            for (int i=0; i<totalOps; i++)
+// 		            {
+// 		                if(inFile.hasNext("(Meal,)"))
+// 		                {
+		                  
+// 		                }
+// 		                else if(inFile.hasNext("(Bed,)"))
+// 		                {
+		                   
+// 		                }
+//                         else {method(inFIle.hasNext()}
+		               
+// 		            }
+
+// 		}
         Scanner scanner = new Scanner(System.in);
 
         // Get class times
@@ -134,7 +153,16 @@ public class ScheduleGenerator {
         System.out.println("Schedule generated successfully!");
     }
 }
-
+    
+public String method(String str) {
+    if (str.charAt(str.length()-1)=='x'){
+        str = str.replace(str.substring(str.length()-1), "");
+        return str;
+    } else{
+        return str;
+    }
+}
+    
 private static String getDay(int i) {
     switch (i) {
         case 1:
