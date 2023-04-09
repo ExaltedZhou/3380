@@ -13,10 +13,10 @@ import java.io.IOException;
 
 public class InputGUI {
 
-    public static void GUI (){
+    public static void GUI (File input){
         SwingUtilities.invokeLater(() -> {
             int numClasses = promptForNumberOfClasses();
-            createAndShowGUI(numClasses);
+            createAndShowGUI(numClasses, input);
         });    
     }
     
@@ -25,7 +25,7 @@ public class InputGUI {
         return Integer.parseInt(input);
     }
 
-    private static void createAndShowGUI(int numActivity) {
+    private static void createAndShowGUI(int numActivity, File input) {
         JFrame frame = new JFrame("Activity Input");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -75,8 +75,7 @@ public class InputGUI {
         submitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                File outputFile = new File("input.txt");
-                try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
+                try (BufferedWriter writer = new BufferedWriter(new FileWriter(input))) {
                     for (int i = 0; i < numActivity; i++) {
                         String classInfo = dayNames[i].getText() + ", " + activityNames[i].getText() + ", " + startTimes[i].getText() + ", " + endTimes[i].getText() + ", " + activityTypes[i].getText();
                         writer.write(classInfo);
