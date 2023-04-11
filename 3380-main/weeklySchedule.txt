@@ -1,0 +1,55 @@
+Mon:
+wake up                  12:00AM    - 6:00AM   
+csc 4000                 10:00AM   - 10:30AM  Class
+csc 2000                 11:00AM   - 12:00PM  Class
+Lunch                    12:30PM   - 1:00PM   Meal
+bed                      9:00PM    - 11:59PM  nextday
+Free Time: 06:00-10:00
+Free Time: 10:30-11:00
+Free Time: 12:00-12:30
+Free Time: 13:00-21:00
+
+Tue:
+wake up                  12:00AM    - 6:00AM   
+csc 4000                 10:00AM   - 10:30AM  Class
+csc 2000                 11:00AM   - 12:00PM  Class
+Lunch                    12:30PM   - 1:00PM   Meal
+bed                      9:00PM    - 11:59PM  nextday
+Free Time: 06:00-10:00
+Free Time: 10:30-11:00
+Free Time: 12:00-12:30
+Free Time: 13:00-21:00
+
+Wed:
+wake up                  12:00AM    - 6:00AM   
+csc 4000                 10:00AM   - 10:30AM  Class
+csc 2000                 11:00AM   - 12:00PM  Class
+Lunch                    12:30PM   - 1:00PM   Meal
+bed                      9:00PM    - 11:59PM  nextday
+Free Time: 06:00-10:00
+Free Time: 10:30-11:00
+Free Time: 12:00-12:30
+Free Time: 13:00-21:00
+
+Thu:
+wake up                  12:00AM    - 6:00AM   
+csc 4000                 10:00AM   - 10:30AM  Class
+csc 2000                 11:00AM   - 12:00PM  Class
+Lunch                    12:30PM   - 1:00PM   Meal
+bed                      9:00PM    - 11:59PM  nextday
+Free Time: 06:00-10:00
+Free Time: 10:30-11:00
+Free Time: 12:00-12:30
+Free Time: 13:00-21:00
+
+Fri:
+wake up                  12:00AM    - 6:00AM   
+csc 4000                 10:00AM   - 10:30AM  Class
+csc 2000                 11:00AM   - 12:00PM  Class
+Lunch                    12:30PM   - 1:00PM   Meal
+bed                      9:00PM    - 11:59PM  nextday
+Free Time: 06:00-10:00
+Free Time: 10:30-11:00
+Free Time: 12:00-12:30
+Free Time: 13:00-21:00
+

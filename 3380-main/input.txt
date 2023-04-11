@@ -1,0 +1,4 @@
+m-f, csc 2000, 11:00am, 12:00pm, Class
+m-f, Lunch, 12:30pm, 1:00pm, Meal
+m-f, bed, 9:00pm, 6:00am, nextday
+m-f, csc 4000, 10:00am, 10:30am, Class
