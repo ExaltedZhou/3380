@@ -1,5 +1,3 @@
-
-
 package Schedule;
 
 import javax.swing.*;
@@ -10,24 +8,25 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.concurrent.CountDownLatch;
 
 public class InputGUI {
 
-    public static void GUI (File input){
+    public static void GUI(File input, CountDownLatch latch) {
         SwingUtilities.invokeLater(() -> {
             int numClasses = promptForNumberOfClasses();
-            createAndShowGUI(numClasses, input);
-        });    
+            createAndShowGUI(numClasses, input, latch);
+        });
     }
-    
+
     private static int promptForNumberOfClasses() {
         String input = JOptionPane.showInputDialog("Enter the number of Activities:");
         return Integer.parseInt(input);
     }
 
-    private static void createAndShowGUI(int numActivity, File input) {
+    private static void createAndShowGUI(int numActivity, File input, CountDownLatch latch) {
         JFrame frame = new JFrame("Activity Input");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         JPanel panel = new JPanel(new GridLayout(numActivity * 5 + 1, 2, 3, 4));
         
@@ -70,8 +69,8 @@ public class InputGUI {
             panel.add(activityTypes[i]);
         }
 
-        JButton submitButton = new JButton("Submit");
-        
+                JButton submitButton = new JButton("Submit");
+
         submitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -81,16 +80,15 @@ public class InputGUI {
                         writer.write(classInfo);
                         writer.newLine();
                     }
-
+                } catch (IOException ex) {
+                   ex.printStackTrace();
+                } finally {
                     frame.dispose();
                     JOptionPane.showMessageDialog(null, "Entries Saved");
-
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
-            }
-        });
-        panel.add(new JLabel());
+                  latch.countDown(); // Move this call to the finally block
+        }
+    }
+});        panel.add(new JLabel());
         panel.add(submitButton);
 
         frame.add(panel);
@@ -99,4 +97,5 @@ public class InputGUI {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
+        
 }
